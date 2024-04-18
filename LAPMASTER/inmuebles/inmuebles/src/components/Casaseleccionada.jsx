@@ -5,7 +5,8 @@ import casa3 from "./casa3.webp";
 import casa4 from "./casa4.webp";
 import logo from "./logo.jpg"
 import Menu from "./Menu";
-import "./casa.css"; // Archivo CSS para estilos del slider
+import "./casa.css"; 
+
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -57,12 +58,12 @@ if (x == true){
       <Menu />
 
 <div className="conte" onClick={as} >
-  <img src={casa1} alt="" className='ime' />
-  <div className="cone"> 
-  <img src={casa2} alt=""  className='im'/>
+  <img src={casa1} alt="" className='ime ime1' />
+ 
+  <img src={casa2} alt=""  className='ime ime2'/>
   
-  <img src={casa4} alt="" className='imm' />
-  </div>
+  <img src={casa4} alt="" className='ime ime2' />
+
 </div>
 
 <div className="abajo-contenedor"> 
